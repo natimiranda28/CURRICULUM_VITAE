@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    padding: auto;   
+}
+
+body{
+    background-image:url("img/background.jpg");
+}
+ul{
+    list-style: none;
+}
+
+.text-Regular{
+    font-weight: 400;
+}
+.text-Center{
+    text-align: center;
+}
+
+.text-Right{
+    text-align: right;
+}
+
+.text-Left{
+    text-align: left;
+}
+
+.clase{
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+} 
+ 
+.seccion{
+    text-align: center;
+} 
+
+.fotocv{
+    width: 100%;
+    text-align: center;
+}
+
+.footer_dis{
+    background-color: white;
+    position:absolute;
+    width: 100vw;
+    bottom: 0;
+}
+
+.grid{
+    width: 99%;
+    display: grid;
+}
+
+.contenedor-final{
+    display: flex;
+    flex-direction: row;
+}
+
+.divuno{
+    width: 20vw;
+    margin: 50px;
+    margin-left: 200px;
+    padding: 10px;
+}
+
+.divdos{
+    background-color: white;
+    width: 50vw;
+    height: 65vh;
+    margin-left: 50px;
+}
+
+.innerData{
+    border-style: solid;
+    border-width: 1px;
+    margin: 50px;
+}
+
+.userMainData{
+    align-self: center;
+    text-align: center;
+}
+
+.userMainData h1{
+    padding: 10px;
+    font-size: 50px;
+}
+
+.linkExp{
+    text-decoration: none;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+footer h1{
+    display: inline-block;
+}
+
+.elementFooter{
+    padding: 5px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.newForm{
+    height: auto;
+    background-color: lightpink;
+    text-align: center;
+}
+
+.transition:hover{
+    cursor: pointer;
+    background-color: pink;
+    width: 500 px;
+    border: solid 3px white;}
+
+
+@keyframes textAlpha{
+    from {opacity:0}
+    to{opacity:1}
+ }
+        
+        
+
+section{ 
+    animation-name: textAlpha;
+    animation-duration: 2s;
+ }
+img{animation-name: textAlpha;
+    animation-duration: 2s;}
