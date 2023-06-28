@@ -7,7 +7,8 @@
 }
 
 body{
-    background-color: FFF9C4;
+    background-image: url(../img/background.jpeg);
+    
 }
 ul{
     list-style: none;
