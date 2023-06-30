@@ -30,11 +30,11 @@ ul{
     text-align: left;
 }
 
-.clase{
+ .clase{ /*evitara que la foto de perfil quede pegada al margen del contenedor*/
     background-color: white;
     text-align: center;
     padding: 10px;
-} 
+}  
  
 .seccion{
     text-align: center;
@@ -58,17 +58,17 @@ ul{
     display: grid;
 }
 
-.contenedor-final{
+.conteiner-final{
     display: flex;
     flex-direction: row;
 }
 
-.divuno{
+/* .divuno{
     width: 20vw;
     margin: 50px;
     margin-left: 200px;
     padding: 10px;
-}
+} */
 
 .divdos{
     background-color: white;
@@ -97,10 +97,7 @@ ul{
     text-decoration: none;
 }
 
-.logo{
-    width: 50px;
-    height: 50px;
-}
+
 
 /* footer h1{
     display: inline-block;
