@@ -102,17 +102,17 @@ ul{
     height: 50px;
 }
 
-footer h1{
+/* footer h1{
     display: inline-block;
-}
-
+} */
+/* 
 .elementFooter{
     padding: 5px;
     display: inline-block;
     margin: 0 10px;
 }
-
-.newForm{
+ */
+/* .newForm{
     height: auto;
     background-color: lightpink;
     text-align: center;
@@ -137,4 +137,4 @@ section{
     animation-duration: 2s;
  }
 img{animation-name: textAlpha;
-    animation-duration: 2s;}
+    animation-duration: 2s;} */
