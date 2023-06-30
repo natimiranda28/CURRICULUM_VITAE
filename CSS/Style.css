@@ -43,15 +43,16 @@ ul{
 .fotocv{
     width: 100%;
     text-align: center;
+    
 }
 
-.footer_dis{
+/* .footer_dis{
     background-color: white;
     position:absolute;
     width: 100vw;
     bottom: 0;
 }
-
+ */
 .grid{
     width: 99%;
     display: grid;
