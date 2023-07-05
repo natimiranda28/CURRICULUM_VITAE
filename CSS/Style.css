@@ -1,137 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
-
-*{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: auto;
-    padding: auto;   
-}
-
-body{
-    background-image: url(../img/background.jpg);
-    
-}
-
-ul{
-    list-style: none;
-}
-
-.text-Regular{
-    font-weight: 400;
-}
-.text-Center{
-    text-align: center;
-}
-
-.text-Right{
-    text-align: right;
-}
-
-.text-Left{
-    text-align: left;
-}
-
- .clase{ /*evitara que la foto de perfil quede pegada al margen del contenedor*/
-    background-color: white;
+body {
+    margin: 0;
+    background: lightgray;
+  }
+  
+  :root {
+    --main-color: white;
+  }
+  
+  .bg {
     text-align: center;
     padding: 10px;
-}  
- 
-.seccion{
+    height: 100vh;
+    background-size: cover;
+    box-sizing: border-box;
+    filter: blur(8px);
+  }
+  
+  .bg-text {
+    color: var(--main-color);
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
     text-align: center;
-} 
-
-.fotocv{
-    width: 100%;
-    text-align: center;
-    
-}
-
-/* .footer_dis{
-    background-color: white;
-    position:absolute;
-    width: 100vw;
-    bottom: 0;
-}
- */
-.grid{
-    width: 99%;
-    display: grid;
-}
-
-.conteiner-final{
+    font-family: "Rubik Mono One";
+  }
+  
+  .custom-section {
+    padding-top: 50px;
+  }
+  
+  .cb {
     display: flex;
-    flex-direction: row;
-}
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .card-text {
+    font-family: "New Tegomin";
+  }
+  
+  footer {
+    background: black;
+    padding: 20px 0;
+    color: var(--main-color);
+    margin-top: 40px;
+  }
+  
+  .home {
+    background-image: url("img/background.jpg");
+  }
 
-/* .divuno{
-    width: 20vw;
-    margin: 50px;
-    margin-left: 200px;
-    padding: 10px;
-} */
 
-.divdos{
-    background-color: white;
-    width: 50vw;
-    height: 65vh;
-    margin-left: 50px;
-}
-
-.innerData{
-    border-style: solid;
-    border-width: 1px;
-    margin: 50px;
-}
-
-.userMainData{
-    align-self: center;
+  .text-Center{
     text-align: center;
 }
-
-.userMainData h1{
-    padding: 10px;
-    font-size: 50px;
-}
-
-.linkExp{
-    text-decoration: none;
-}
-
-
-
-/* footer h1{
-    display: inline-block;
-} */
-/* 
-.elementFooter{
-    padding: 5px;
-    display: inline-block;
-    margin: 0 10px;
-}
- */
-/* .newForm{
-    height: auto;
-    background-color: lightpink;
-    text-align: center;
-}
-
-.transition:hover{
-    cursor: pointer;
-    background-color: pink;
-    width: 500 px;
-    border: solid 3px white;}
-
-
-@keyframes textAlpha{
-    from {opacity:0}
-    to{opacity:1}
- }
-        
-        
-
-section{ 
-    animation-name: textAlpha;
-    animation-duration: 2s;
- }
-img{animation-name: textAlpha;
-    animation-duration: 2s;} */
