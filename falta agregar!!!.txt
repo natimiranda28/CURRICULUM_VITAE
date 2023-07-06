@@ -1,0 +1,5 @@
+separar los links un poco
+subir la posicion de los datos personales
+subir libreria tita a un servidor 
+añadir animaciones
+poner nombre y profesion al medio
